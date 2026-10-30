@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Selected website, landing page and brand identity projects by Sebastian Brook.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="sblogo.png">
+    <title>Projects | Sebastian Brook</title>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav-bar container">
+            <a href="index.html" class="logo" aria-label="Sebastian Brook home">
+                <img src="sblogo.png" alt="Sebastian Brook logo">
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <time class="nav-time" id="nav-time" aria-label="Current local time"></time>
+            <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+                <i class="bi bi-list" aria-hidden="true"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero container">
+            <p class="eyebrow">Featured work</p>
+            <h1>Selected projects built with purpose.</h1>
+            <p class="lead">A look at websites, landing pages, and brand identities I’ve designed for clients across different industries.</p>
+        </section>
+
+        <section class="projects container">
+            <div class="filter-bar" role="group" aria-label="Filter projects">
+                <button type="button" class="filter-btn active" data-filter="all">All</button>
+                <button type="button" class="filter-btn" data-filter="website">Websites</button>
+                <button type="button" class="filter-btn" data-filter="landing">Landing pages</button>
+                <button type="button" class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card project-one" data-category="website">
+                    <div class="project-content">
+                        <span>Brand website</span>
+                        <h4>Creative Studio Portfolio</h4>
+                        <p>A showcase website for a design-led agency focused on clarity, storytelling, and polished presentation.</p>
+                    </div>
+                </article>
+                <article class="project-card project-two" data-category="landing">
+                    <div class="project-content">
+                        <span>Business growth</span>
+                        <h4>Startup Launch Page</h4>
+                        <p>A conversion-driven landing page created to highlight value, build trust, and drive signups.</p>
+                    </div>
+                </article>
+                <article class="project-card project-three" data-category="branding">
+                    <div class="project-content">
+                        <span>Visual identity</span>
+                        <h4>Luxury Brand Refresh</h4>
+                        <p>A premium digital identity system combining strong visuals, elegant typography, and clear messaging.</p>
+                    </div>
+                </article>
+                <article class="project-card project-four" data-category="website">
+                    <div class="project-content">
+                        <span>E-commerce</span>
+                        <h4>Fashion Online Store</h4>
+                        <p>A clean storefront for a Lagos fashion label with smooth product browsing and a simple checkout.</p>
+                    </div>
+                </article>
+                <article class="project-card project-five" data-category="landing">
+                    <div class="project-content">
+                        <span>Event page</span>
+                        <h4>Tech Conference Landing</h4>
+                        <p>A bold event page with schedules, speaker highlights, and a fast ticket registration flow.</p>
+                    </div>
+                </article>
+                <article class="project-card project-six" data-category="branding">
+                    <div class="project-content">
+                        <span>Brand identity</span>
+                        <h4>Café Brand &amp; Menu</h4>
+                        <p>A warm, friendly identity for a neighbourhood café, from logo to menu design and social templates.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimonials container">
+            <div class="section-heading">
+                <p class="eyebrow">Client feedback</p>
+                <h3>What clients say about working with me.</h3>
+            </div>
+
+            <div class="services-grid">
+                <figure class="quote-card">
+                    <i class="bi bi-quote"></i>
+                    <blockquote>Sebastian understood our brand immediately. The new website doubled our enquiries in the first month.</blockquote>
+                    <figcaption><strong>Adaeze O.</strong><span>Founder, creative studio</span></figcaption>
+                </figure>
+                <figure class="quote-card">
+                    <i class="bi bi-quote"></i>
+                    <blockquote>Fast, professional, and genuinely easy to work with. Our launch page looked better than we imagined.</blockquote>
+                    <figcaption><strong>Tunde A.</strong><span>CEO, tech startup</span></figcaption>
+                </figure>
+                <figure class="quote-card">
+                    <i class="bi bi-quote"></i>
+                    <blockquote>The rebrand gave us a confident new look. Customers keep complimenting our new identity.</blockquote>
+                    <figcaption><strong>Chioma E.</strong><span>Owner, lifestyle brand</span></figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="cta-band container">
+            <div class="cta-inner">
+                <div>
+                    <p class="eyebrow">Let’s work together</p>
+                    <h3>Like what you see?</h3>
+                    <p>Your project could be next. Let’s create something you’re proud to share.</p>
+                </div>
+                <div class="cta-group">
+                    <a href="contact.html" class="btn btn-primary">Start a project</a>
+                    <a href="services.html" class="btn btn-secondary">View services</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-wrap">
+            <p>© <span id="year">2025</span> Sebastian Brook. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="socials footer-socials">
+                <a href="https://www.instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.x.com" target="_blank" rel="noreferrer" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://wa.me/2348000000000" target="_blank" rel="noreferrer" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
